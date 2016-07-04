@@ -104,16 +104,15 @@ img {
 	float: left;
 }
 
-footer {
-	margin: auto;
-}
-
 table {
 	margin: auto; 
 	font-family: 'Lora', serif;
 	font-size: 25px;
 	background-color: #faf0e6;
 	color: #000080;
+	border-style: dashed;
+	border-width: 2px;
+	border-color: #000080;
 }
 
 a.red_link {
@@ -122,4 +121,9 @@ a.red_link {
 }
 a.red_link:visited {
 	color: red;
+}
+
+th, td {
+	padding: 7px;
+	border: 1px solid #000080;
 }
