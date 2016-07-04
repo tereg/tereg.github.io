@@ -1,24 +1,36 @@
 body {
 	background-image:url(http://img06.deviantart.net/2a38/i/2009/171/5/f/wood_texture_by_xomiphotography.jpg);
+	max-width: 1300px;
+}
+
+#flag_header {
+	position: relative;
 }
 
 #cuban_flag {
+	position: absolute;
 	height: 425px;
-	width: 100%;
+	width: 95%;
 	z-index: 10;
-	margin: 10px auto 0 auto;
+	margin: 10px 15px 600px 15px;
 } 
 
 #page_header {
 	position: absolute;
-	top: 177px;
-	left: 470px;
+	top: 150px;
+	left: 42%;
+	right: 10%;
 	color: #faf0e6;
 	text-shadow: black 0.1em 0.1em 0.2em;
+	z-index: 20;
 }
 
+#intro_text {
+	position: absolute;
+	top: 435px;
+}
 .food_type {
-	margin: 10px;
+	margin: 525px 10px 0 10px;
 	padding: 10px;
 }
 
@@ -146,3 +158,4 @@ ul {
 	margin-bottom:0;
 	text-shadow: black 0.1em 0.1em 0.2em;
 	}
+
