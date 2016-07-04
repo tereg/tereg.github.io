@@ -1,3 +1,55 @@
 body {
-	background: red
-	 }
+	background-image:url(http://img06.deviantart.net/2a38/i/2009/171/5/f/wood_texture_by_xomiphotography.jpg);
+}
+
+#cuban_flag {
+	height: 425px;
+	width: 100%;
+	z-index: 10;
+} 
+
+#page_header {
+	position: absolute;
+	top: 177px;
+	left: 470px;
+	color: #faf0e6;
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+h1 {
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 72px;
+	text-align: center;
+	margin: 0;
+	z-index: 20;
+}
+
+h2 {
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 25px;
+	text-align: center;
+	margin: 0;
+}
+
+nav {
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 16px;
+	color: white;
+}
+
+p {
+	font-family: 'Lora', serif;
+	margin-bottom: 15px;
+	color: #faf0e6;
+}
+
+div {
+	float: left;
+	margin: 1px;
+}
+
+img {
+	height: 240px;
+	width: 300px;
+	border-radius: 15px;
+}
