@@ -50,7 +50,7 @@ h3 {
 
 nav {
 	font-family: 'Gloria Hallelujah', cursive;
-	font-size: 16px;
+	font-size: 20px;
 	color: white;
 	margin-left: 30px;
 }
@@ -58,6 +58,7 @@ nav {
 p {
 	font-family: 'Lora', serif;
 	font-size: 18px;
+	text-shadow: black 0.1em 0.1em 0.2em;
 	text-align: center;
 	margin-bottom: 15px;
 	color: #f0ffff;	
@@ -80,6 +81,7 @@ img {
 
 #restaurants {
 	display: block;
+	text-align: center;
 }
 
 .food_width {
@@ -96,4 +98,12 @@ img {
 
 #flan {
 	float: left;
+}
+
+footer {
+	margin: auto;
+}
+
+table {
+	margin: auto; 
 }
