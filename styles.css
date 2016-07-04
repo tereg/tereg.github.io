@@ -66,6 +66,10 @@ p {
 	margin-right: 30px;
 }
 
+a {
+	color: #f0ffff;	
+}
+
 a:visited {
 	color: #faf0e6;
 }
@@ -106,4 +110,16 @@ footer {
 
 table {
 	margin: auto; 
+	font-family: 'Lora', serif;
+	font-size: 25px;
+	background-color: #faf0e6;
+	color: #000080;
+}
+
+a.red_link {
+	color: #000080;
+
+}
+a.red_link:visited {
+	color: red;
 }
