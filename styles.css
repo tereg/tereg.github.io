@@ -27,7 +27,7 @@ body {
 
 #intro_text {
 	position: absolute;
-	top: 435px;
+	top: 438px;
 }
 .food_type {
 	margin: 525px 10px 0 10px;
@@ -159,3 +159,14 @@ ul {
 	text-shadow: black 0.1em 0.1em 0.2em;
 	}
 
+@media only screen and (max-width: 1000px) {
+	#page_header{
+		font-size: 400%;
+	}
+}
+
+@media only screen and (max-width: 901px) {
+	#page_header{
+		font-size: 350%;
+	}
+}
