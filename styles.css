@@ -1,6 +1,7 @@
 body {
 	background-image:url(http://img06.deviantart.net/2a38/i/2009/171/5/f/wood_texture_by_xomiphotography.jpg);
 	max-width: 1300px;
+	position: relative;
 }
 
 #flag_header {
@@ -28,7 +29,9 @@ body {
 #intro_text {
 	position: absolute;
 	top: 438px;
+	display: block;
 }
+
 .food_type {
 	margin: 525px 10px 0 10px;
 	padding: 10px;
@@ -100,6 +103,9 @@ img {
 #restaurants {
 	display: block;
 	text-align: center;
+	width: 100%;
+	margin: 360px 10px 0 10px;
+	padding: 10px;
 }
 
 .food_width {
@@ -119,7 +125,7 @@ img {
 }
 
 table {
-	margin: auto; 
+	margin: 0 auto;
 	font-family: 'Lora', serif;
 	font-size: 25px;
 	background-color: #faf0e6;
@@ -159,18 +165,6 @@ ul {
 	text-shadow: black 0.1em 0.1em 0.2em;
 	}
 
-@media only screen and (max-width: 1000px) {
-	#page_header{
-		font-size: 400%;
-	}
-}
-
-@media only screen and (max-width: 901px) {
-	#page_header{
-		font-size: 350%;
-	}
-}
-
 #footer_section {
 	position: relative;
 }
@@ -189,3 +183,47 @@ ul {
 	margin: auto;
 
 }
+
+
+@media only screen and (max-width: 1000px) {
+	#page_header{
+		font-size: 400%;
+	}
+}
+
+@media only screen and (max-width: 901px) {
+	#page_header{
+		font-size: 350%;
+	}
+}
+
+
+@media only screen and (max-width: 1241px) {
+	.food_width{
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 880px) {
+	#intro_text{
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 1242px) {
+	#restaurants{
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 890px) {
+	#intro_text{
+		font-size: .9em;
+		width: 100%;
+		height: 100%;
+	}
+}
+
+
+
+
