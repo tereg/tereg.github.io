@@ -170,3 +170,22 @@ ul {
 		font-size: 350%;
 	}
 }
+
+#footer_section {
+	position: relative;
+}
+
+#footer_text {
+	font-family: 'Gloria Hallelujah', cursive;
+	color: #faf0e6;
+	font-size: 20px;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	margin: 0 auto;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+
+}
